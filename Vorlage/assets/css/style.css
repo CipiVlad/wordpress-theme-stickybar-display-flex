@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500&display=swap');
+
+/* colors 
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7
+
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#bg-container {
+    height: 100vh;
+    background-image: url('https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg');
+    background-size: cover;
+
+}
+
+/* ----n•a•v•--b•a•r---- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 5%;
+    background: #fff;
+    position: sticky;
+    top: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 1% 0;
+    color: #666
+}
+
+
+nav ul a {
+    margin: 0 10px;
+    padding: 0 20px;
+}
+
+#navbar {
+    height: 76px;
+    border-top: 1.5px solid #c3c3c3;
+    border-bottom: 1px solid #c3c3c3;
+    display: flex;
+    align-items: center;
+    color: #666;
+    background: #fff;
+
+}
+
+
+/* ----s•e•c•t•i•o•n---- */
+
+section {
+    text-align: center;
+    margin: 14% 0;
+    padding: 0 0;
+    color: #fff;
+
+}
+
+
+h2,
+h3 {
+    font-size: 3rem;
+    font-weight: 300;
+    word-spacing: 20px;
+    font-weight: 600;
+}
+
+p,
+button {
+    padding: 4vh 5%;
+    margin
+}
+
+
+#read {
+    font-size: 0.6rem;
+    font-weight: 500;
+    padding: 1rem 3rem;
+    background: #745CF9;
+    color: #fff;
+    border-style: none;
+}
+
+#read:hover {
+    background: #6248f5;
+}
+
+#download {
+    font-size: 0.6rem;
+    padding: 1rem 1.9rem;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+}
+
+#download:hover {
+    background: #fff;
+    color: #000;
+}
